@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ThemeParkWorld — Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">🎢 ThemeParkWorld</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="parks.html">Theme Parks</a></li>
+        <li><a href="map.html">Map</a></li>
+        <li><a href="bookings.html">Bookings</a></li>
+        <li><a href="food.html">Food Nearby</a></li>
+        <li><a href="gps.html">GPS</a></li>
+        <li><a href="discounts.html">Discounts</a></li>
+    </ul>
+</nav>
+
+<header class="hero">
+    <h1>Explore Every Theme Park in the World</h1>
+    <p>Your magical adventure starts here — rides, food, hotels, flights, cruises & more.</p>
+    <a href="parks.html" class="btn">Start Exploring</a>
+
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+</header>
+
+<section class="section colorful">
+    <h2>🎡 Theme Parks</h2>
+    <p>Browse parks by country, type, and thrill level.</p>
+    <a href="parks.html" class="btn">View Parks</a>
+</section>
+
+<section class="section blue">
+    <h2>✈️ Travel Bookings</h2>
+    <p>Flights, hotels, and cruises connected to your favorite parks.</p>
+    <a href="bookings.html" class="btn">Book Now</a>
+</section>
+
+<section class="section yellow">
+    <h2>🍔 Food Nearby</h2>
+    <p>Find restaurants and snacks near any park.</p>
+    <a href="food.html" class="btn">Find Food</a>
+</section>
+
+<section class="section green">
+    <h2>📍 GPS & Maps</h2>
+    <p>Navigate parks and nearby attractions with live location.</p>
+    <a href="gps.html" class="btn">Open GPS</a>
+</section>
+
+<footer>
+    © 2026 ThemeParkWorld — Built with imagination 🎠
+</footer>
+
+</body>
+</html>
