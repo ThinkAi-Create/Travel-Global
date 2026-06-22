@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff7fb;
+}
+
+/* NAVIGATION */
+nav {
+    background: #ff4f81;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav .logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(#ff9ec4, #ffd1dc);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #ff4f81;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* CLOUDS */
+.cloud {
+    position: absolute;
+    background: white;
+    width: 140px;
+    height: 70px;
+    border-radius: 50px;
+    opacity: 0.7;
+    animation: float 20s linear infinite;
+}
+
+.cloud1 { top: 20px; left: -200px; animation-delay: 0s; }
+.cloud2 { top: 100px; left: -250px; animation-delay: 5s; }
+.cloud3 { top: 180px; left: -300px; animation-delay: 10s; }
+
+@keyframes float {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(2000px); }
+}
+
+/* SECTIONS */
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.colorful { background: #ffb3d1; }
+.blue { background: #a3d8ff; }
+.yellow { background: #ffe9a3; }
+.green { background: #b8ffb3; }
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* CONTENT LAYOUT */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+/* FOOTER */
+footer {
+    background: #ff4f81;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin-top: 40px;
+}
