@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ThemeParkWorld — Discounts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">🎢 ThemeParkWorld</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="parks.html">Theme Parks</a></li>
+        <li><a href="map.html">Map</a></li>
+        <li><a href="bookings.html">Bookings</a></li>
+        <li><a href="food.html">Food Nearby</a></li>
+        <li><a href="gps.html">GPS</a></li>
+        <li><a href="discounts.html">Discounts</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h1>Discounts & Deals</h1>
+    <p>Later you can plug in real promo codes or affiliate links.</p>
+
+    <div class="card-grid">
+        <div class="card">
+            <h3>Theme Park Tickets</h3>
+            <p>Save on entry tickets with partner discounts.</p>
+            <a href="#" class="btn">View Ticket Deals</a>
+        </div>
+
+        <div class="card">
+            <h3>Food & Dining</h3>
+            <p>Coupons for restaurants near major parks.</p>
+            <a href="#" class="btn">View Food Deals</a>
+        </div>
+
+        <div class="card">
+            <h3>Flights & Cruises</h3>
+            <p>Bundle travel and park tickets for extra savings.</p>
+            <a href="#" class="btn">View Travel Deals</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    © 2026 ThemeParkWorld — Discounts
+</footer>
+
+</body>
+</html>
